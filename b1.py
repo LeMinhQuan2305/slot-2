@@ -10,7 +10,7 @@ for i in range(len(array)):
     if abs(array[i]- avg <= diffmin):
         diff = array[i]
         pos = i
-print(pos)
+print(pos) # vị trí bắt đầu từ 0 đến len(array) 
 #problem 2
 a = float(input("Nhập điểm: "))
 if 8.5 <= a <= 10:
